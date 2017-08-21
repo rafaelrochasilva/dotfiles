@@ -11,6 +11,9 @@ brew 'ack'
 
 brew 'bash'
 brew 'bash-completion'
+brew 'zsh'
+brew 'zsh-completions'
+
 brew 'neovim'
 
 brew 'git'
