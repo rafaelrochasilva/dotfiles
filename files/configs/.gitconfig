@@ -11,20 +11,9 @@
   st = status -sb
   s = status -sb
   ci = commit
-  wip = !git add . && git commit -am 'WIP :construction:'
-  stash-all = stash save --include-untracked
   b = branch
   d = diff
-  pf = push --force-with-lease
-  ap = add --patch
-  ds = diff --staged
-  tags = tag -l
-  com = checkout master
   branches = branch -a
-  remotes = remote -v
-  sp = stash pop
-  rc = rebase --continue
-  rim = rebase -i master
   prune = fetch --prune
   r = reset
   undo = reset --soft HEAD^
@@ -34,17 +23,8 @@
   l = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
   ls = log --pretty=format:'%C(yellow)%h %C(blue)%ad%C(red)%d %C(reset)%s%C(green) [%cn]' --decorate --date=short
   lf = log --pretty=format:'%C(yellow)%h %C(blue)%ad%C(red)%d %C(reset)%s%C(green) [%cn]' --decorate --date=short --numstat
-  co = checkout
-  fix = commit --amend
-  fixx = !git add . && git commit --amend --no-edit
-  pom = push origin master
-  latest = for-each-ref --count=10 --sort=-committerdate --format='%(committerdate:short) %(refname:short)'
 
 [core]
-  editor = subl -w -n
-  excludesfile = ~/.gitignore
-  pager = diff-so-fancy | less --tabs=1,5 -R
-  whitespace = warn
 
 [include]
   path = ~/.gitconfig-personal
@@ -79,4 +59,4 @@
   program = /usr/local/bin/gpg
 
 [github]
-  user = diegorv
+  user = rafaelrochasilva
