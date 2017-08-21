@@ -15,7 +15,10 @@ alias brews='brew services'
 alias reload='source ~/.zshrc'
 
 # Alias to Sublime (subl)
-alias st='subl'
+alias n='$EDITOR'
+
+# Git
+alias g=git
 
 ###############################################################################
 # File navigation aliases
