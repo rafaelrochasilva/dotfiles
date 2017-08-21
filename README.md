@@ -1,4 +1,4 @@
-# @diegorv .dotfiles
+# @rafaelrochasilva .dotfiles
 > macOS and developer environment preferences with Brew/Git/Rbenv/ZSH
 
 # Setup
