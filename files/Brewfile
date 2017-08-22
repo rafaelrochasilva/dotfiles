@@ -16,6 +16,7 @@ brew 'zsh-completions'
 
 brew 'neovim'
 
+brew 'postgresql'
 brew 'git'
 brew 'htop'
 brew 'wget'

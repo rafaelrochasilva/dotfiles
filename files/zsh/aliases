@@ -14,8 +14,8 @@ alias brews='brew services'
 # Reload shell config
 alias reload='source ~/.zshrc'
 
-# Alias to Sublime (subl)
-alias n='$EDITOR'
+# Alias to neovim
+alias n=nvim
 
 # Git
 alias g=git
