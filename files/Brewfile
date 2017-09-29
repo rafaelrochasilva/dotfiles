@@ -8,6 +8,7 @@ tap 'homebrew/versions'
 brew 'cmake'
 brew 'readline'
 brew 'ack'
+brew 'ag'
 
 brew 'bash'
 brew 'bash-completion'
