@@ -16,4 +16,6 @@ ln -sf ${DOTFILES_FILES_CONFIGS}/.gitconfig-work ~/.gitconfig-work
 ln -sf ${DOTFILES_FILES_CONFIGS}/.gitignore ~/.gitignore
 ln -sf ${DOTFILES_FILES_CONFIGS}/.gitmessage ~/.gitmessage
 
+git config --global core.excludesfile '~/.gitignore'
+
 print_success 'Git Configuration done!\n'
