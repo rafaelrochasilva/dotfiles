@@ -9,7 +9,7 @@ Copy this command into the terminal, and the setup will start.
 
 ```bash
 cd ~/
-git clone https://github.com/diegorv/dotfiles.git .dotfiles
+git clone https://github.com/rafaelrochasilva/dotfiles.git .dotfiles
 cd .dotfiles && ./setup.sh
 ```
 
@@ -102,8 +102,6 @@ Just follow the instructions! Easy peasy lemon squeezy :metal:
 * Install .inputrc
 * Install iterm2_shell_integration
 * Install Oh-My-Zsh
-* Install my `diegorv.zsh-theme`
-![zsh-theme](https://cloud.githubusercontent.com/assets/24455/23412017/fcf518d4-fdb2-11e6-9d24-6f0f56ff2ef0.png)
 
 ## 5. Ruby configuration
 * Install RBenv
@@ -119,3 +117,4 @@ Just follow the instructions! Easy peasy lemon squeezy :metal:
 - https://github.com/kassio/dotfiles
 - https://github.com/lucasmazza/dotfiles
 - https://github.com/fnando/dotfiles
+- https://github.com/diegorv/dotfiles
