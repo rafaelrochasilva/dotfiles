@@ -58,7 +58,8 @@ brew 'elixir'
 # MAS
 brew 'mas'
 
-mas 'Crazy Tomato', id: 1105814268
+mas 'Be Focused Pro - Focus Timer & Goal Tracker', id: 961632517
+mas 'Shush - Microphone Manager', id: 496437906
 
 # CASK
 tap 'caskroom/cask'
