@@ -60,6 +60,12 @@ brew 'mas'
 
 mas 'Be Focused Pro - Focus Timer & Goal Tracker', id: 961632517
 mas 'Shush - Microphone Manager', id: 496437906
+mas 'Call Recorder - Skype Edition', id: 909323225
+mas 'Todoist: Organize your life', id: 585829637
+mas 'WhatsApp Desktop', id: 1147396723
+mas 'Evernote', id: 406056744
+mas 'Record It-Screen Recorder', id: 1339001002
+mas 'Slack', id: 803453959
 
 # CASK
 tap 'caskroom/cask'
