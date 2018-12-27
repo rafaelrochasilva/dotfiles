@@ -27,7 +27,7 @@
 
 [include]
   path = ~/.gitconfig-personal
-[includeIf "gitdir:~/src/ptec"]
+[includeIf "gitdir:~/src/"]
   path = ~/.gitconfig-work
 
 [push]
