@@ -11,12 +11,9 @@ clear
 
 ask_for_sudo
 
-print_in_purple '\nOS X Config Dotfiles - diegorv\n'
+print_in_purple '\nOS X Config Dotfiles\n'
 
 # Run installers
-${DOTFILES_INSTALLER}/osx_update
-${DOTFILES_INSTALLER}/osx_customization
-
 ${DOTFILES_INSTALLER}/brew
 ${DOTFILES_INSTALLER}/git
 ${DOTFILES_INSTALLER}/shell
