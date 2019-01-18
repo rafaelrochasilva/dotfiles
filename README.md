@@ -9,7 +9,7 @@ Copy this command into the terminal, and the setup will start.
 
 ```bash
 cd ~/
-git clone https://github.com/diegorv/dotfiles.git .dotfiles
+git clone https://github.com/rafaelrochasilva/dotfiles.git .dotfiles
 cd .dotfiles && ./setup.sh
 ```
 
@@ -114,6 +114,7 @@ Just follow the instructions! Easy peasy lemon squeezy :metal:
 * Make Ruby 2.3.0 default
 
 # Resources
+- https://github.com/diegorv/dotfiles
 - https://github.com/MikeMcQuaid/strap
 - https://github.com/carloscuesta/dotfiles
 - https://github.com/kassio/dotfiles

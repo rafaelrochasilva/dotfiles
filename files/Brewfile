@@ -55,6 +55,10 @@ brew 'puma/puma/puma-dev'
 brew 'erlang'
 brew 'elixir'
 
+brew 'install kafka'
+brew services start kafka
+brew services start zookeeper
+
 # MAS
 brew 'mas'
 
