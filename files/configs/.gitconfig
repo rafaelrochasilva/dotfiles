@@ -22,8 +22,14 @@
   l = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
   ls = log --pretty=format:'%C(yellow)%h %C(blue)%ad%C(red)%d %C(reset)%s%C(green) [%cn]' --decorate --date=short
   lf = log --pretty=format:'%C(yellow)%h %C(blue)%ad%C(red)%d %C(reset)%s%C(green) [%cn]' --decorate --date=short --numstat
+  pt = "!git fetch; git log $(git describe --tags `git rev-list --tags --max-count=1`)..origin/master --oneline --pretty=format:'%s' | sed -e 's/^.*\\[#\\(.*\\)\\].\\(.*\\)$/- \\2 [[PT-\\1](https:\\/\\/www.pivotaltracker.com\\/story\\/show\\/\\1)]/'"
+  files = !git diff --name-only $(git merge-base HEAD master)
+  stat = !git diff --stat $(git merge-base HEAD master)
+  review = !neovim -p $(git files) +\"tabdo Gdiff master\" +\"let g:gitgutter_diff_base = master\"
+  reviewone = !neovim -p +\"tabdo Gdiff master\" +\"let g:gitgutter_diff_base = master\"
 
 [core]
+  excludesfile = /Users/rafael.rocha/.gitignore
 
 [include]
   path = ~/.gitconfig-personal
