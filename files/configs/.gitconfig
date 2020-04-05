@@ -25,8 +25,8 @@
   pt = "!git fetch; git log $(git describe --tags `git rev-list --tags --max-count=1`)..origin/master --oneline --pretty=format:'%s' | sed -e 's/^.*\\[#\\(.*\\)\\].\\(.*\\)$/- \\2 [[PT-\\1](https:\\/\\/www.pivotaltracker.com\\/story\\/show\\/\\1)]/'"
   files = !git diff --name-only $(git merge-base HEAD master)
   stat = !git diff --stat $(git merge-base HEAD master)
-  review = !neovim -p $(git files) +\"tabdo Gdiff master\" +\"let g:gitgutter_diff_base = master\"
-  reviewone = !neovim -p +\"tabdo Gdiff master\" +\"let g:gitgutter_diff_base = master\"
+  review = !nvim -p $(git files) +\"tabdo Gdiff master\" +\"let g:gitgutter_diff_base = master\"
+  reviewone = !nvim -p +\"tabdo Gdiff master\" +\"let g:gitgutter_diff_base = master\"
 
 [core]
   excludesfile = /Users/rafael.rocha/.gitignore

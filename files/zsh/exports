@@ -14,3 +14,6 @@ export GIT_PS1_SHOWCOLORHINTS=true
 export GIT_PS1_DESCRIBE_STYLE=branch
 export GIT_PS1_SHOWUPSTREAM=verbose
 export PS1="\W\[\033[32m\]\$(__git_ps1)\[\033[00m\]$ "
+
+export PATH="/usr/local/anaconda3/bin:$PATH"
+export PATH="/Library/TeX/Distributions/.DefaultTeX/Contents/Programs/texbin:$PATH" 

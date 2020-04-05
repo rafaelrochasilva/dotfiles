@@ -23,6 +23,9 @@ plugins=(git git-prompt rails last-working-dir k)
 # The optional three formats: 'mm/dd/yyyy'|'dd.mm.yyyy'|'yyyy-mm-dd'
 HIST_STAMPS='dd.mm.yyyy'
 
+# Direnv
+eval "$(direnv hook zsh)"
+
 # Iterm2 integration
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
